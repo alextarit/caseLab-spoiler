@@ -1,5 +1,5 @@
-const button = document.getElementById('myBtn');
-const spoiler = document.getElementById('spoiler');
+const button = document.querySelector('#myBtn');
+const spoiler = document.querySelector('#spoiler');
 
 // Функция для переключения видимости блока spoiler(мигание)
 function toggleSpoiler() {
